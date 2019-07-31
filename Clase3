@@ -17,3 +17,5 @@ Polimorfismo, propiedad permite tratar objetos de manera similar, con ciertos ca
   Override.cambiar implementacion del metodo
   
   Overload. Metodo con diferentes parametros
+
+Modularidad. Agrupamiento logico de clases.
