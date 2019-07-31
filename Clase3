@@ -1,0 +1,19 @@
+Fecha 31/07/2019
+
+Encapsulacion, capacidad de OCULTAR detalles, definimos algoritmo de uso. Ejemplo Microondas.
+
+Clase, Molde, No determina por si misma el objeto en creacion. Pues pueden ser objetos distintos Ejemplo Molde cupcake.
+
+Atributos, Variables se le asignan valor, espacios en memoria.
+
+Metodos, operaciones permiten cambiar atributos de objeto, declaracion interfaz de objeto.
+
+Instancia, Instanciacion por medio de clases definidas.
+
+Herencia, comparten/relacion jerarquica, relacion clases, clase padre/super clase//clases derivadas/subclases.
+
+Polimorfismo, propiedad permite tratar objetos de manera similar, con ciertos cambios.
+
+  Override.cambiar implementacion del metodo
+  
+  Overload. Metodo con diferentes parametros
