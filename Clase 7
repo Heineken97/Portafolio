@@ -1,0 +1,22 @@
+Realizamos Quiz
+Introduccion de Patrones de Diseno.
+  POO/ Como deben ocmunicarse los objetos y las clases .Solucion general reutilizable a un problema comun
+  
+Buenas practicas comprobadas
+
+1994 Erich Gamma
+Richard Help
+Ralph Johnson
+John Vissides 
+
+Documentan buenas practicas
+
+Clasificar los patrones por
+  Alcance
+    Clases 
+    Objetos
+  Proposito
+    Creacionales Abstraer proceso de instaciacion *Sistema independiente de  los demas procesos*, encapsular como usa las clases concretas 
+    Estructurales Describe formas
+    Comportamiento(comnunicacion de objetos)
+    
