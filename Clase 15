@@ -1,0 +1,24 @@
+18/09/2019
+
+QUiz Pilas y Colas
+
+Actividad Selection sort, bubble sort, misma cantidad de comparaciones, complejidad : (n)^2
+
+Cada iteracion comparativa(n-1)
+
+Selection sort- primero ordenado
+Bubble sort- ultimo ordenado
+
+Si se busca bajar la cantidad de iteraciones, en cuanto no hay un solo swap se termina
+
+
+Insertion sort Complejidad : (n)^2 
+comparacion primero y swap
+confirmacion anterior
+comparacion segunda y swap
+confirmacion o swap
+
+
+Condicion de los 3:  Va dejando zonas ordenadas, no se tocan, ya estan ordenadas
+
+ 
