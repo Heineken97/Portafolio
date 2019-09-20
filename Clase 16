@@ -1,1 +1,21 @@
+09/20/2019
+Repaso algoritmos de ordenamiento SelectionSort, BubbleSort. InsertionSort
+Ordenar 10 numeros
 
+Shellsort
+
+Sacar h: #Elementos/2
+Comparamos 0- cuarta posicion(h)
+hace swap
+se avanza franja de misma cantidad de elementos
+hasta llegar comparacion ( 1 vs 2. con 2 ultimo de la lista)
+---- termina primera iteracion
+se resta una h
+---------
+Llegar al ultimo llega a una especie de bubblesort
+
+
+
+MergeSort O(Nlog2N)
+
+Dividir en mitades, luego dividir en mitades. iterado
