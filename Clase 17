@@ -1,0 +1,145 @@
+RadixSort
+
+Desmonta en digitos de unidades, decenas y centenas
+Pasa a sistemas de base 10
+
+[170.45.75.90.802.24.2.66]
+
+Genera segundo arreglo con posibles digitos 0-9
+Contar cuantos elementos tienen terminal
+
+[2,0,2,1,1,1,0,0,0]
+
+Acumula valores
+
+[2,2,4,4,5,7,8,8,8]
+
+Arreglo por unidades 
+
+Genera arreglo con una posicion menos 
+  
+  [[0],[1],[2],[3],[4],[5],[6],[7]] 
+
+  66 termina en 6, busca [6]=8. resta 1(8-1=7)
+
+  add el 66 a pos 7
+
+  [[0],[1],[2],[3],[4],[5],[6],66] 
+  
+  2 termina en 2, busca[2]=4. resta=3
+  
+  add el 2 en pos 3
+  
+  [[0],[1],[2],2,[4],[5],[6],66] 
+  
+ 
+ Arreglo de unidades ordenado [170,90,802,2,24,45,75,66]
+ 
+ Arreglo por decenas
+ 
+ [170,90,802,2,24,45,75,66]
+ 
+ Conteo
+ 
+ [2,0,1,0,1,0,1,2,0,1]
+ 
+ Arrastre
+ 
+ [2   ,2,  3,  3,   4,  4,  5,  7,  7, 8]
+  [[0],[1],[2],[3],[4],[5],[6],[7],[8],[9]] 
+ 
+ 66 termina en 6, [6], resta= 4
+ 
+ [[0],[1],[2],[3],66,[5],[6],[7],[8],[9]] 
+ 
+ Arreglo Decenas Ordenado  [802,2,24,45,66,170,75,90]
+ 
+ Arreglo por Centenas
+ 
+ Conteo
+ [6,1,0,0,0,0,0,0,1,0]
+ 
+ Arrastre
+ 
+ [6,7,7,7,7,7,7,7,8,8]
+ 
+ 90 termina en 0, [0]=6, resta=5
+ 
+  [[0],[1],[2],[3],[4],90,[6],[7],[8],[9]]
+  
+  Arreglo Centenas Ordenado [2,24,45,66,75,90,170,802]
+  
+  COmplejidad igual que el quicksort O(Nlog2N), usa mucho mas memoria
+  
+  
+  Quicksort
+  
+  Parte en subarrays y se llama recursivamente, 
+  
+  [14,7,3,12,9,11,6,2]
+  
+  Pivot=(Indice min+((indice min- indice max)/2)
+  
+  indice min es menor pivot(12)?
+  indice max es mayor pivot(12)?
+  
+  Ambos no, hacen swap
+  
+  indice se suma uno
+  
+  indice min es menor pivot(12)?
+  SI, avanza
+ indice min es menor pivot(12)? 
+ SI, avanza
+ 
+ Hasta cruce entre indice y pivot, no dap or ordenado 
+ 
+ Complejidad misma que el mergeSort
+ 
+ 
+ 
+ 
+ Algoritmos de Busqueda
+ 
+ Busqueda Binaria
+ Buscar numero en arreglo ordenado, 
+ Compara el inputa a buscar con la mitad del arreglo
+ 
+ Complejidad O(Log(N))
+ 
+ Busqueda por Interpolacion
+ 
+Buscar un mejor middle,
+
+Complejidad O(N)
+ 
+  Pivot=(low+((number-array[low])*(high-low)))/(array[high]-array[low])
+ 
+ 
+ Busqueda hash
+ 
+ estructura que establece funcion mapea muchos datos en un conjunto mas pequenio
+ Se identifican por llaves
+ 
+  llaves(con objs) vs indices 
+ varias llaves ----> booked
+ 
+ numero primo usado determina cantidad de bookeds
+ mid square 
+ truncation
+ folding
+ 
+ Problemas de colisiones, llaves asociadas al mismo indice
+ Elegir bien la funcion hash
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
