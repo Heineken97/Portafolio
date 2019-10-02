@@ -1,0 +1,42 @@
+02/10/2019
+
+Estructuras de Datos Jerarquicas
+Arboles(Especializacion de los grafos) Small at top, big at bot
+Binarios, heap, avl, display, Family B, Expression, N-arios
+
+Combina ventajas de Arreglos(busqueda rapida, acceso indexado) ordenados y listas enlazadas(Facil insercion y delete)
+
+Nodos conectados por aristas
+
+Nodos, almacena datos y referencia a otros nodos hijos 
+
+
+Implementacion en sistemas de archivo,  En bases de datos se guardan como variacion de la familia B, en algoritmos de compresion, arboles de expresion
+
+Recorrer.Proceso Nodo A ----> Nodo B
+Ruta.Path. Nodos visitados
+Raiz.NodoTope
+Arista, Todos poseen una hacia al anterior. Nodo posee solo un padre
+NodoHoja.Leaf.No tiene hijos
+Hermanos.Siblings.Poseen mismo padre
+Largo.length.Cantidad de Aristas
+Profundidad.Depth.Cantidad de Aristas hacia nodo especifico
+Altura.height. largo hasta las hojas mas bajas
+Visitado.Ejecutado funcion sobre nodo
+
+Arboles Binarios
+
+(hijo izq y der) max 2 hijos
+
+izq<Nodopadre. der>Nodopadre.  Condicion para que sea arbol binario
+
+Arboles Binarios de Busqueda
+
+Estructuras de datos lineales Arreglos o linked list, usando memoria dinamica 
+
+Se define un boolean constains() para observar si tiene item
+
+De definen findMin( node) y find max
+
+Insertar. Recorre el arbol usando contains
+
