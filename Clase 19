@@ -1,0 +1,13 @@
+10/09/2019
+
+Delete de arbol binario de busqueda
+Considerar posibilidades dependiendo de posicion
+
+Nodo es hoja, solo se borra, su padre apunta a null
+Nodo con 1 hijo, padre de eliminado, toma su hijo
+Nodo con 2 hijos, Agarrar menor de la derecha, agarrar el mayor del izq, reemplazar la data,repetir procedure,0
+
+Factor de Balance=altura del subarbol derecho- altura de subarbol izquierdo
+
+Insertar. Usar ROtacion para con dicion de balanceo
+Solo los de la ruta, su factor de balanceo son afectados
