@@ -1,1 +1,25 @@
 16/10/19  
+Árboles heap
+
+Arboles para cola de prioridad
+
+Permite rapida insercion(O(logN)
+Cumple:
+  Es completo= esta lleno, encuentra nodo vacio, ahi termina
+  Se impementa con arreglo
+  Satisface condiciones heap( nodos llaves son mayores a los menores)(analisis por nivel)
+  Saber padre( k-1/2)
+  Saber izq( k*2)+1
+  Saber der( k*2)+2
+  
+  NO POSEE funcion SEARCH
+  
+  Remover raiz. se mueve el ultimo nodo a la raiz, hacer swaps para acomodar ese nodo
+  
+ Insercion, en primeraposicion alfinal del arreglo, pero no violar la condicion heap
+ 
+ Arbolse N-Arios
+ 
+ Arbol no binario/ k-ary trees 
+ 
+ Actividad 3
