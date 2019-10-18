@@ -2,3 +2,24 @@ Arboles B
 
 Operacion Insertar
 
+Eliminar
+
+Caso 1. Nodo Hoja con un extra
+Caso 2. hijo Con predecedente con extra
+Caso 3. hijo Con sucesor con extra
+Caso 4. no sobran en hijos, junta los del medio
+Caso 5. Junta todos para mantener niveles 
+Caso 6- 
+
+Arbol B+
+Datos se almacenan en nodos hoja
+Nodos internos con llaves para llegar
+Hojas con punteros a hermanos derechos
+
+Arbol B*
+Cambia condiciones, todos nodos excepto raiz  y hojas, tiene (2m-1)/3 hijos
+Raiz tiene al menos 2 y maximo 2[(2m-2)/3]+1 hijos
+Todas las hojas en el mismo nivel
+Nodo NO hoja, con k hijos, puede tener k-1 llaves
+
+Insercion lenta, debido a que el SPLIT
