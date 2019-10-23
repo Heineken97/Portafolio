@@ -1,0 +1,22 @@
+23/10/2019
+
+Arboles de expresion(binarios)
+Secuencia de tokens(operadores palabras clave), componentes lexicos con reglas
+Cada Hoja son operandos
+raiz y nodos internos, operadores
+Cada subarbol es una subexpresion, con raiz de operador
+Compilador
+Cuando operador tiene un hijo operador, traduce como parentesis
+
+Formas de recorrerlo,
+Infijo   lalva a subarbol izq, raiz y luego derecho
+
+Posfijo
+prefijo
+
+Creando arbol de expresiones
+se divide en piilas de operadores y colas de operandos
+primera teracion terminan todos en cola
+
+pila. llenamos stack con operandos hechos nodosm unimos por medio de operadores.
+ 
