@@ -1,0 +1,73 @@
+10/25/2019
+
+Grafos
+
+Agrupa entidades
+Nodos ----> Vertices
+Aristas ----> Arcos
+
+G= V A
+
+A= Relaciones de Vertices
+
+Grafo no dirigido. Comunicacion bidireccional
+Grafo dirigido. Presenta direccion 
+
+Adyacente. Comunicacion directa
+Aristas pueden tener peso.
+Vertices pueden tener grados. NO dirigido.. Cantidad de Aristas que contiene V
+                                dirigido.. Input= Vertices entrantes a V, Output= Vertices SAlientes
+                                
+Ruta. Vertices visitados del inicial al final 
+Si los vertices visitados 1 vez, ruta simple
+
+CIclo. Ruta SImple que inicia y termina en el mismo
+
+DAG= Grafo directo acyclico. No existen ciclos 
+
+Grafos conectados, ruta entre par de nodos(indirectas)
+Grafo fuertemente conectados. Bidireccional
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+Grafo implementado por arregls bidimensionales (Denso, muchos arcos)
+      implementados por listas Enlazadas.
+      
+ Representacion dinamica-----> Lista de adyacencia 
+ 
+ 
+ 
+ Matriz adyacencia
+ 
+ 0 si no existe arco directo
+ 1 si existe arista entre ellos
+ 
+ 
+ Recorrido de Grafos, involucra visitar todos los nodos 
+ 
+   Breadth First( Pasando por todos los vertices, visitando 1 vez) Procesados en FIFO
+
+   Usa una cola con vertices marcados
+
+
+   Cola, ENtra vertice inicial
+   se marca en lista de visitados 
+
+   COla, entra hacia a donde puede ir
+   se Marca 1 de los dos como visitado
+
+   Cola queda con una, e igual entra siguientes
+   elije siguiente en la cola y lo pasa a visitados. 
+
+   Depth First Procesados en LIFO
+
+ 
+ Recorrido para ruta mas corta
+ Indispensable el uso de pesos
+ De vertice especifico a cualquier otro
+ Mejor decision en el momento
+ 
+ (Peso, proviene)
+ https://stackoverflow.com/questions/49034774/highlight-words-inside-existing-pdf
+ 
+ 
