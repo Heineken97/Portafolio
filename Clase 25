@@ -1,0 +1,19 @@
+algoritmo Floyd
+
+Programacion dinamica para elegir rota mas corta de cualquiera a cualquiera
+
+Dikstra es de un nodo a cualquiera
+
+Matriz con pesos. cada arco con pesos, ruta directa
+si no har arco, se pone infinito
+Diagonal de esa matriz en ceros
+
+Cada posicion de la matriz indica ruta mas corta 
+Matriz d por cada nodo 
+Cada paso agregamos vertice para solucion general
+
+Trabaja dos matrices la D y Q 
+
+Genera matrices
+Incorpora vertices
+
